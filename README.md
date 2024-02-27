@@ -1,2 +1,2 @@
-# homebrew-homebrew
+# homebrew-tap
 Homebrew formulas
