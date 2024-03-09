@@ -5,12 +5,12 @@
 class Gostacking < Formula
   desc "Git stacking using merge"
   homepage "https://github.com/Bhacaz/gostacking"
-  version "0.7.1"
+  version "0.8.0"
   depends_on :macos
 
   if Hardware::CPU.arm?
-    url "https://github.com/Bhacaz/gostacking/releases/download/v0.7.1/gostacking_Darwin_arm64.tar.gz"
-    sha256 "35c7ac938dfe916fb6a4a7b8cbfbf4617534b91d9e1d19a5f5ecb9708c344a59"
+    url "https://github.com/Bhacaz/gostacking/releases/download/v0.8.0/gostacking_Darwin_arm64.tar.gz"
+    sha256 "9fb76037e23e7d23106fef1ca05c9c9fafe8395cf7a7581c4b8fe14717439e9f"
 
     def install
       bin.install "gostacking"
@@ -18,8 +18,8 @@ class Gostacking < Formula
     end
   end
   if Hardware::CPU.intel?
-    url "https://github.com/Bhacaz/gostacking/releases/download/v0.7.1/gostacking_Darwin_x86_64.tar.gz"
-    sha256 "425ca466b400544d53e93670d31f05e1ffd155c0258173bd652db68b09a1dbc0"
+    url "https://github.com/Bhacaz/gostacking/releases/download/v0.8.0/gostacking_Darwin_x86_64.tar.gz"
+    sha256 "bf97f847a00ecdc123e0d0e9b615faf88057771c63521010404abe0b9b7c8d60"
 
     def install
       bin.install "gostacking"
